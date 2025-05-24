@@ -22,7 +22,7 @@ pipeline {
         stage('Code Analysis') {
             steps {
                 echo 'Stage 3: Code Analysis'
-                echo 'Task: Analyze code quality and enforce coding standards.'
+                echo 'Task: Analyse code quality and enforce coding standards.'
                 echo 'Tool: SonarQube'
             }
         }
